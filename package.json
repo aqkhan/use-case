@@ -1,16 +1,17 @@
 {
   "name": "graph-test",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "SCTE Micro Services and GraphQL integration use case",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "service:users": "cd sample-server-json && npm start",
     "service:companies": "cd sample-server-json2 && npm start",
-    "graphql": "nodemon index.js",
-    "start": "concurrently \"npm run service:users\" \"npm run service:companies\" \"npm run graphql\""
+    "graphql": "node index.js",
+    "launch": "open http://localhost:9999/graphql",
+    "start": "concurrently \"npm run service:users\" \"npm run service:companies\" \"npm run graphql\" \"npm run launch\""
   },
-  "author": "",
+  "author": "A Q Khan",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
