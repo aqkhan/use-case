@@ -2,12 +2,12 @@
 <img src="https://signatureteam.com/wp-content/themes/singature_theme/images/xsignature_logo.png.pagespeed.ic.gpF041yZfm.webp">
 </p>
 
-#Prerequisite
+# Prerequisite
 * Nodejs 8 or Above
 * NPM 3.5.x or above
 * GIT 2.x or above
 
-#Installation
+# Installation
 * `git clone https://github.com/aqkhan/use-case.git`
 * `cd use-case`
 * `npm install`
@@ -16,7 +16,7 @@
 * `npm start`
 * [GraphiQL Interface](http://localhost:9999/graphql)
 
-#Example
+# Example
 ````
 {
   company(id:"1") {
