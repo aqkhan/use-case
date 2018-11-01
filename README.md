@@ -8,12 +8,13 @@
 * GIT 2.x or above
 
 # Installation
+* Run the following commands in your CLI
 * `git clone https://github.com/aqkhan/use-case.git`
 * `cd use-case`
 * `npm install`
 * `cd sample-server-json && npm install`
 * `cd .. && cd sample-server-json2 && npm install`
-* `npm start`
+* `cd .. && npm start`
 * [GraphiQL Interface](http://localhost:9999/graphql)
 
 # Example
