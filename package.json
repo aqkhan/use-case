@@ -8,8 +8,7 @@
     "service:users": "cd sample-server-json && npm start",
     "service:companies": "cd sample-server-json2 && npm start",
     "graphql": "node index.js",
-    "launch": "open http://localhost:9999/graphql",
-    "start": "concurrently \"npm run service:users\" \"npm run service:companies\" \"npm run graphql\" \"npm run launch\""
+    "start": "concurrently \"npm run service:users\" \"npm run service:companies\" \"npm run graphql\""
   },
   "author": "A Q Khan",
   "license": "ISC",

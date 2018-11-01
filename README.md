@@ -15,9 +15,11 @@
 * `cd sample-server-json && npm install`
 * `cd .. && cd sample-server-json2 && npm install`
 * `cd .. && npm start`
-* [GraphiQL Interface](http://localhost:9999/graphql)
+* Open in browser [GraphiQL Interface](http://localhost:9999/graphql)
 
 # Example
+Copy paste the following code in GraphiQL interface
+
 ````
 {
   company(id:"1") {
