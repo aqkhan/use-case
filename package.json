@@ -1,0 +1,25 @@
+{
+  "name": "graph-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "service:users": "cd sample-server-json && npm start",
+    "service:companies": "cd sample-server-json2 && npm start",
+    "graphql": "nodemon index.js",
+    "start": "concurrently \"npm run service:users\" \"npm run service:companies\" \"npm run graphql\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}

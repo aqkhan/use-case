@@ -1,0 +1,46 @@
+{
+   "users":[
+      {
+         "id":"5bd99bccc868b7d3b87c1d5f",
+         "firstName":"Sally Harmon",
+         "gender":"female",
+         "companyId":"1"
+      },
+      {
+         "id":"5bd99bccc69bc802054b0e70",
+         "firstName":"Debbie Poole",
+         "gender":"female",
+         "companyId":"1"
+      },
+      {
+         "id":"5bd99bcca7e64840ec4335aa",
+         "firstName":"Hughes Leon",
+         "gender":"male",
+         "companyId":"1"
+      },
+      {
+         "id":"5bd99bcc419b544fc3bb1b8d",
+         "firstName":"Christine Chaney",
+         "gender":"female",
+         "companyId":"1"
+      },
+      {
+         "id":"5bd99bcc86c92210fa476d56",
+         "firstName":"Berg Mercado",
+         "gender":"male",
+         "companyId":"2"
+      },
+      {
+         "id":"5bd99bcc120856f41f3ccc3f",
+         "firstName":"Yang Hickman",
+         "gender":"male",
+         "companyId":"2"
+      },
+      {
+         "id":"5bd99bccbbbb45c3b0b37921",
+         "firstName":"Bessie Higgins",
+         "gender":"female",
+         "companyId":"1"
+      }
+   ]
+}
